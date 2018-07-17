@@ -5,9 +5,9 @@ def display_board(board)
  
   line = "-----------"
   row1 =  "  #{board[0]} " + "| #{board[0]} |" + " #{board[0]} "
-  row2 = ' #{board[4]} ' + '| #{board[5]} |' + ' #{board[6]} '
-  row3 = ' #{board[7]} ' + '| #{board[8]} |' + ' #{board[9]} ' 
-  line = "-----------"
+  row2 = "  #{board[0]} " + "| #{board[0]} |" + " #{board[0]} "
+  row3 = "  #{board[0]} " + "| #{board[0]} |" + " #{board[0]} "
+ 
 
   puts row1
   puts line
